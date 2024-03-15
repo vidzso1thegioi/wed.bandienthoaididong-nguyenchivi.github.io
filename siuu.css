@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    color: white;
+    padding: 20px;
+    background-image: url(images/backgroud.jpg);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav li:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 5px;
+}
+main{
+    padding: 50px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border: 2px solid purple;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.product button{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid plum;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.section form{
+    margin-left: 30%;
+}
+.section form input{
+    margin-left: 30px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#name{
+    margin-left: 44px;
+}
+#mail{
+    margin-left: 78px;
+}
+#message{
+    margin-left: 52px;
+}
+.section form button{
+    margin-left: 394px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (max width: 760px){
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 30px;
+    }
+}
+

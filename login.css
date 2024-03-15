@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    width: 5%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav li:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 5px;
+}
+main{
+    padding: 50px;
+    
+}
